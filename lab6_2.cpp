@@ -17,7 +17,7 @@ double findYComponent(double ly1, double ly2 , double rady1, double rady2){
 double pythagoras(double a, double b){
     return sqrt(pow(a,2) + pow(b,2));
 }
-double showResult(double a, double b){
+void showResult(double a, double b){
     cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" << "\n";
     cout << "Length of the resultant vector = " << a << "\n";
     cout << "Direction of the resultant vector (deg) = " << b << "\n" ;
